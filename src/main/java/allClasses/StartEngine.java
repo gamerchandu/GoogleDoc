@@ -8,6 +8,7 @@ public class StartEngine  extends OpenBrowser
 	public static void main(String[] args) 
 	{
 		 
+			System.out.println(" Program Started ");
 		openChromeBrowser();
 		driver.get("http://13.65.209.198:881/");
 		
